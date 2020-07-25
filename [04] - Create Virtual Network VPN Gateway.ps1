@@ -1,4 +1,4 @@
-﻿# connect-AzureRM
+﻿# connect-azurermaccount 
 
 $pubIP = New-AzureRmPublicIpAddress -Name 'JMM_VNet01Gateway_PublicIP' -ResourceGroupName JMM_RG01 -Location UKSouth -AllocationMethod Dynamic
 $vnet = Get-AzureRmVirtualNetwork -name 'JMM_VNet01' -ResourceGroupName JMM_RG01

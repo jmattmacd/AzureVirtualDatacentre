@@ -1,4 +1,4 @@
-﻿# connect-AzureRM
+﻿# connect-azurermaccount 
 
 New-AzureRmVirtualNetwork -Name JMM_VNet01 -ResourceGroupName "JMM_RG01" -Location UKSouth -AddressPrefix "10.$IP.0.0/16" 
 
